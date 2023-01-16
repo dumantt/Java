@@ -4,7 +4,7 @@ import java.util.Map;
 
 public class C07_SoyisimIleOgrenciArama {
 
-    // ogrenci map'de aradigimiz soyisim'deki ogrencilerin
+    // Q17_ogrenci map'de aradigimiz soyisim'deki ogrencilerin
     // Isim,soyisim sinif ve sube bilgilerini
     // bir tablo olarak yazdiran bir method olusturun
 

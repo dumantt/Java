@@ -7,7 +7,7 @@ import java.util.Map;
 public class C07_SinifaGoreSiraliListeYazdir {
     public static void main(String[] args) {
 
-        // tum ogrenci listesini
+        // tum Q17_ogrenci listesini
         // sinif sube isim soyisim no seklinde
         // dogal sirali olarak
         // Yazdiran bir method olusturun

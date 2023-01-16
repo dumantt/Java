@@ -18,7 +18,7 @@ public class C02_EntrySet {
         System.out.println("No   Ogrenci Bilgileri");
         System.out.println("======================");
 
-        // once ogrenci numaralarini elde edelim
+        // once Q17_ogrenci numaralarini elde edelim
 
         Set<Integer> ogrenciNoSeti= ogrenciMap.keySet(); // [101, 102, 103, 104, 105, 106]
 
@@ -34,7 +34,7 @@ public class C02_EntrySet {
           Java map'deki elementleri key-value ikilisi olarak BIRLIKTE alabilmemiz icin
           ENTRY interface'i olusturmustur.
           entry'ler de map ile ayni data yapisina sahip olmalidir
-          ornegin ogrenci map'ini dusunursek entry'ler
+          ornegin Q17_ogrenci map'ini dusunursek entry'ler
           Entry<Integer,String>
          */
 

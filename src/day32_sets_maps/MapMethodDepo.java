@@ -100,7 +100,7 @@ public class MapMethodDepo {
 
     public static Map<Integer, String> numaraIleSubeDegistirme(Map<Integer, String> ogrenciMap, int okulNo, String yeniSubeIsmi) {
 
-        // 1- okul numarasini biliyoruz, direk ogrenci value'ye ulasabiliriz
+        // 1- okul numarasini biliyoruz, direk Q17_ogrenci value'ye ulasabiliriz
 
         String ogrenciValue= ogrenciMap.get(okulNo); // Ayse-Can-10-H-MF
 
@@ -115,7 +115,7 @@ public class MapMethodDepo {
         String yeniValue= valueArr[0]+"-"+valueArr[1]+"-"+valueArr[2]+"-"+
                 valueArr[3]+"-"+valueArr[4];
 
-        // 4- ogrenci no yani key ile yeni value'yu map'e ekleyelim
+        // 4- Q17_ogrenci no yani key ile yeni value'yu map'e ekleyelim
 
         ogrenciMap.put(okulNo,yeniValue);
 
@@ -271,7 +271,7 @@ public class MapMethodDepo {
         // 101=Ali-Can-11-H-MF
         // 11 H Ali Can 101
 
-        // tum ogrenci listesini
+        // tum Q17_ogrenci listesini
         // sinif sube isim soyisim no seklinde
         // dogal sirali olarak
         // Yazdiran bir method olusturun
@@ -308,7 +308,7 @@ public class MapMethodDepo {
 
     public static void isimSoyisimSiraliListeYazdir(Map<Integer, String> ogrenciMap) {
 
-        // tum ogrenci listesini isim soyisim no sinif sube bolum
+        // tum Q17_ogrenci listesini isim soyisim no sinif sube bolum
 
         Set<Map.Entry<Integer, String>> entrySeti = ogrenciMap.entrySet();
         Set<String> isimSoyisimSiraliSet= new TreeSet<>();

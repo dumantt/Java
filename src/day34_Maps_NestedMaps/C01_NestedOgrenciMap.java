@@ -58,7 +58,7 @@ public class C01_NestedOgrenciMap {
         for (Map.Entry<Integer, Map<String, String>> eachOgrenciEntry: ogrenciEntrySeti
         ) {
             // 103={Bolum=TM, Soyisim=Cem, Sube=K, Sinif=11, Isim=Ali}}
-            // once ogrenci value'sunu kaydetmeliyiz
+            // once Q17_ogrenci value'sunu kaydetmeliyiz
 
             if (eachOgrenciEntry.getKey()==103){
                 Map<String, String> eachOgrenciValueMap = eachOgrenciEntry.getValue();

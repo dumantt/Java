@@ -18,10 +18,10 @@ public class C05_Maps {
 
         System.out.println(ogrenciMap.size()); // 4
 
-        // map'de 103 numarali ogrenci var mi ?
+        // map'de 103 numarali Q17_ogrenci var mi ?
         System.out.println(ogrenciMap.containsKey(103)); // true
 
-        // Ali diye bir ogrenci var mi ?
+        // Ali diye bir Q17_ogrenci var mi ?
 
         System.out.println(ogrenciMap.containsValue("Ali")); // false
         System.out.println(ogrenciMap.containsValue("Ali-Can-11-H-MF")); // true
