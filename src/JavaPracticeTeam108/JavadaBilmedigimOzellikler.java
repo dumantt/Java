@@ -1,6 +1,29 @@
 package JavaPracticeTeam108;
 
+
+
 public class JavadaBilmedigimOzellikler {
+
+    // getter setter main methoddan once private lar icin yapilabiliyor
+    // sag tus generate e tikliyoruz orada constructor test override gibi seylerde cikiyor
+    private int abc;
+    private String bcd;
+
+    public int getAbc() {
+        return abc;
+    }
+
+    public void setAbc(int abc) {
+        this.abc = abc;
+    }
+
+    public String getBcd() {
+        return bcd;
+    }
+
+    public void setBcd(String bcd) {
+        this.bcd = bcd;
+    }
 
     public static void main(String[] args) {
 
@@ -23,5 +46,10 @@ public class JavadaBilmedigimOzellikler {
 
         // continue bu sekilde calisiyor 7 yi yazdirmadi devam ettirdi
 
+
+
+
+
     }
+
 }
