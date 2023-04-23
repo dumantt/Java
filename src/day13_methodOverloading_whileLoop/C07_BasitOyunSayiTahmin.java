@@ -25,29 +25,32 @@ public class C07_BasitOyunSayiTahmin {
         Scanner scan = new Scanner(System.in);
 
         while(tutulanSayi != tahmin){
-            System.out.println("Lutfen bir 0 dan 100 e kadar bir tahmin giriniz");
+            System.out.println("Lütfen 0 dan 100 e kadar bir tahmin giriniz");
             tahmin= scan.nextInt();
 
             if (tutulanSayi==tahmin){ // sayiyi bulduysa
                 System.out.println(sayac +" tahmin ile tuttugum sayiyi buldun");
 
                 if (sayac<=3){
-                    System.out.println("Vaowww");
+                    System.out.println("Vaowww çok çok iyi");
 
                 } else if (sayac<=8) {
-                    System.out.println("Aferin");
+                    System.out.println("Aferin çok iyi");
+
+                }else if (sayac<=10) {
+                    System.out.println("Daha çok çalışmalısın");
 
                 }else {
-                    System.out.println("Basarisiz");
+                    System.out.println("Başarısız");
                 }
                 break;
 
             } else if (tahmin<tutulanSayi) {
-                System.out.println("Sayiyi buyut");
+                System.out.println("Sayıyı büyüt");
                 sayac++;
 
             }else {
-                System.out.println("Sayiyi kucult");
+                System.out.println("Sayıyı küçült");
                 sayac++;
             }
         }
