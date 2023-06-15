@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class C07_Scanner {
     public static void main(String[] args) {
-        // Kullanicidan adını soyadını ve yaşını alıpp aşağıdaki formatta yazdırınız
+        // Kullanicidan adını soyadını ve yaşını alıp aşağıdaki formatta yazdırınız
         /* Isminiz : John
         Soyisminiz : Doe
         Yasiniz : 44
@@ -22,6 +22,7 @@ public class C07_Scanner {
                             "\nSoyisminiz : " + girilenSoyisim +
                             "\nYasiniz : " + girilenYas +
                             "\nKaydiniz basariyla tamamlanmistir.");
-        // \n konsolda cikacak metinin alt sattira cikmasini saglar
+
+        // \n konsolda cikacak metinin alt satira cikmasini saglar
     }
 }

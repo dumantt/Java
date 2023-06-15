@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class C05_Scanner {
     public static void main(String[] args) {
         // kullanicidan ismini alin
-        // ve girileen ismi buyuk harflerle yazdirin
+        // ve girilen ismi buyuk harflerle yazdirin
         // kullanicidan deger almak icin 3 islem yapmaniz gerekir
         //1 . adım scanner objesi olusturmak
         Scanner scan = new Scanner(System.in);
@@ -13,7 +13,7 @@ public class C05_Scanner {
         // 2. adım kullanciya ne istediginizi soyleyin
         System.out.println("isminizi yazin");
         // 3. adım kullanicinin girecegi degeri kaydedeceginiz bir variable olusturun
-        // scan objesi ile ilgili method'u kullanarak kullanicinin girdiggi degeri
+        // scan objesi ile ilgili method'u kullanarak kullanicinin girdigi degeri
         // olusturdugunuz variable'a atayin
         String girilenIsim = scan.nextLine();
         //Artik kullanicinin girdiği
