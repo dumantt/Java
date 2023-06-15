@@ -12,13 +12,15 @@ public class C01_variables {
         /*
         tam sayı int
         metinsel ifadeler String
-        Strıng            ogrenciIsmi            =                    "Matrix         . "    ;
-        Data turu         variable ismi      assingment (atama)        deger                 ;
+        Strıng            ogrenciIsmi            =                    "Matrix";
+        Data turu         variable ismi      assingment (atama)        deger  ;
          */
 
         String ogrenciIsmi= "tahir";
         System.out.println(ogrenciIsmi);
         ogrenciIsmi= "Talha";
+        System.out.println(ogrenciIsmi);
+        ogrenciIsmi = "duman";
         System.out.println(ogrenciIsmi);
     }
 }

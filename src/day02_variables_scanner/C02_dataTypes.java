@@ -6,7 +6,7 @@ public class C02_dataTypes {
         char krk2 = '2';
         char krk3 ='%';
         /* char sadece tek karakter kabul ettiği için '1.' gibi şeyleri kabul etmez
-        tırnakların içinde birden fazla karakteri kabul etmez/*
+        tırnakların içinde birden fazla karakteri kabul etmez
          */
         // blooean mantıksal seyler icin kullanılır true false gibi
 
