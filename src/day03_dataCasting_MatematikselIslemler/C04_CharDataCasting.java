@@ -18,7 +18,7 @@ public class C04_CharDataCasting {
 
        /* Scanner scan = new Scanner(System.in);
         System.out.println("Lütfen bir karakter giriniz");
-        char girilenKarakter = scan.next().charAt(0); //chartAt(0) 0= ilk demek ilk indeksteki char ı al demek
+        char girilenKarakter = scan.next().charAt(0); //chartAt(0) 0= ilk demek, ilk indeksteki char ı al demek
         // kendimiz yöntem oluşturup yapmaya çalıştığımız için böyle yaptık
         System.out.println(girilenKarakter+1);
         bu şekilde yapınca sonuç rakamsal çıktı

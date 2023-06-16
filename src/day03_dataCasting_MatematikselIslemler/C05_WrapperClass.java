@@ -12,11 +12,11 @@ public class C05_WrapperClass {
         //bu kodları stringin sayılardan oluşması sebebiyle kullandık Integer.parseInt(str2); gibi
         // eger stringin içerisinde herhangi bir harf olsaydı kod patlardı sadece sayılardan oluşanlarda çalışıyor
 
-        System.out.println(Integer.MAX_VALUE); // Integerin max degeri
-        System.out.println(Integer.MIN_VALUE); // Integerin max degeri ezbere gerek yok direkt boyle cıkıyor.
+        System.out.println(Integer.MAX_VALUE); // Integerin max degeri   /// 2147483647
+        System.out.println(Integer.MIN_VALUE); // Integerin min degeri ezbere gerek yok direkt boyle cıkıyor.   ///  -2147483648
 
-        System.out.println(Short.MAX_VALUE);
-        System.out.println(Short.MIN_VALUE);
+        System.out.println(Short.MAX_VALUE); // 32767
+        System.out.println(Short.MIN_VALUE); // -32768
 
         char krk1= '$';
         System.out.println(Character.isDigit(krk1)); //false
