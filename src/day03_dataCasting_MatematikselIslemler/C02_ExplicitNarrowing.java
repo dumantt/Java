@@ -34,7 +34,7 @@ public class C02_ExplicitNarrowing {
         // yine aynı sekilde donguleri tamamladı ve -56 buldu
 
         /* explicit Narrowing
-        genis kapasiteli bir bilgiyi dar kapasiteli bir tdata türüne kastin yaparken java bunu otomatik olarak
+        genis kapasiteli bir bilgiyi dar kapasiteli bir data türüne kast yaparken java bunu otomatik olarak
         gerceklestirmez ve inisiyatif almanızı ister bu sebeple
         (donustuurmek istedigimiz data turu) seklinde yazarız
         bu sekilde yaptıgımızda data kayıpları mümkündür ve göze aldığımız dan kastımız da budur

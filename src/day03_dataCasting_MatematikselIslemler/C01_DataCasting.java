@@ -11,7 +11,7 @@ public class C01_DataCasting {
 
         double sayi6 = 5;
         //int sayi7 = sayi6; gibi bir kod yazsaydık
-        //int = double double olan degerin kapasitesi int olan variablein kapasitesinden buyuk
+        //int = double double olan degerin kapasitesi int olan variablenin kapasitesinden buyuk
         // dolayısıyla java otomatik ceviri yapmaz
 
         int sayi8 = 99;
