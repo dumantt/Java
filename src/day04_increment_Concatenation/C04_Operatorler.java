@@ -19,7 +19,7 @@ public class C04_Operatorler {
 
         /* and işareti iki tane & ve &&  sonuçları aynı tek fark
         && ilk yanlışı gördüğünde direkt sonucu verir
-        & yanlışı görse de sonuna kada rgider ve sonucu verir
+        & yanlışı görse de sonuna kadar gider ve sonucu verir
         işlem yükü ve yapılan hataları görebilme farkı var
          */
 
@@ -27,7 +27,7 @@ public class C04_Operatorler {
 
         /*int a=10;
         hem üçe hem beşe bölünebilen sayılar
-        a%3==0 && a%5==0
+        a%3==0 && a%5==0 modulus isareti bolumden kalani verir
         0 ile yüz arasında
         0<a && a<100
         java en fazla iki karşılaştırma yapıyor uc veya daha fazla farklı sayı ya bolunme olayı nı
